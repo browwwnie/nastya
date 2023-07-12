@@ -1,0 +1,411 @@
+
+:root {
+  /* Colors */
+  --black: rgba(0, 0, 0, 1);
+  --deep-sky-blue: rgba(0, 163, 255, 1);
+  --transparent-black-2: rgba(0, 0, 0, 0);
+  --transparent-black-3: rgba(0, 0, 0, 0.32);
+  --transparent-medium-spring-green: rgba(0, 255, 178, 0);
+  --white: rgba(255, 255, 255, 1);
+
+  /* Typographies */
+  /* inter-18-regular */
+  --inter-18-regular-family: "Inter";
+  --inter-18-regular-size: 18px;
+  --inter-18-regular-weight: 400;
+  --inter-18-regular-line-height: normal;
+
+  /* inter-33-regular */
+  --inter-33-regular-family: "Inter";
+  --inter-33-regular-size: 33px;
+  --inter-33-regular-weight: 400;
+  --inter-33-regular-line-height: normal;
+}
+
+.container_slider_css{margin:0px 0px 14px;
+  width:584.98px;
+  height:269.98px;
+  overflow:hidden;
+  position:relative}
+.photo_slider_css{position:absolute;animation:round 24s infinite;opacity:0;width:100%}
+@keyframes round {
+25%{opacity:1}
+40%{opacity:0}
+}
+img:nth-child(1){animation-delay:18s}
+img:nth-child(2){animation-delay:12s}
+img:nth-child(3){animation-delay:6s}
+img:nth-child(4){animation-delay:0}
+@media(min-width:0px) and (max-width:320px) {
+.container_slider_css{width:80%;height:190px}
+}
+@media(min-width:321px) and (max-width:480px) {
+.container_slider_css{width:80%;height:190px}
+}
+audio {
+  width: 508px;
+}
+.rectangle-3 {
+  background-color: #0a1d42;
+  background-attachment: fixed;
+  background-size: contain;
+  background-position: center;
+  background-position: no-repeat;
+  padding: 0 0 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group-3 {
+  background-color: var(--transparent-medium-spring-green);
+  margin-bottom: 15px;
+  padding: 37.25px 899.25px 27.62px 899.91px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  animation: showtop 3s;
+}
+@keyframes showtop{
+  from {top:-100px;
+  opacity: 0;}
+  to {top:0;
+    opacity: 1;}
+  }
+
+.brownie {
+  width: 120.84px;
+  height: 25.13px;
+}
+.flex-wrapper-six {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.flex-wrapper-seven {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  position: relative;
+  animation: showLeft 1.5s;
+}
+@keyframes showLeft {
+  from {left:-100%;
+  opacity: 0;}
+  to {left:0;
+    opacity: 1;}
+  }
+.flex-wrapper-sevenR {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 10px;
+  position: relative;
+  animation: showR 1.5s;
+}
+@keyframes showR {
+  from {right:-100%;
+  opacity: 0;}
+  to {right:0;
+    opacity: 1;}
+  }
+.flex-wrapper-seven:not(:last-of-type) {
+  margin-right: 60px;
+
+}
+.group-14 {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+.group-4 {
+
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.55);
+  margin-right: 15px;
+  padding: 0 0 12.32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group-4:hover {
+  box-shadow:0 0 15px #00d9ff; 
+  transform: scale(0.95);
+  z-index: 1;
+  transition: 0.2s;
+  background-color: rgba(0, 162, 255, 0.781);
+  margin-right: 15px;
+  padding: 0 0 12.32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.rectangle-14 {
+  width: 270px;
+  height: 225px;
+  margin-bottom: 15.5px;
+}
+.gotovye-raboty {
+  width: 139.84px;
+  height: 17.18px;
+}
+.raboty-iz-hudozhki {
+  width: 167.89px;
+  height: 17.18px;
+}
+.nabroski {
+  width: 83.29px;
+  height: 17.18px;
+}
+
+.group-13 {
+  transition: 0.5s;
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 0 0 15.77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.group-13:hover {
+  box-shadow:0 0 15px #ff0000; 
+  transform: scale(0.95);
+  z-index: 1;
+  transition: 0.2s;
+  background-color: rgba(255, 0, 0, 0.89);
+  padding: 0 0 15.77px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.raboty-18 {
+  width: 98.41px;
+  height: 13.73px;
+}
+.group-17 {
+  background-color: var(--transparent-black-2);
+  margin-bottom: 14px;
+  padding: 0 570px 0 0;
+  display: flex;
+  align-items: flex-start;
+}
+.relative-wrapper-one {
+  position: relative;
+}
+.relative-wrapper-one:not(:last-of-type) {
+  margin-right: 45px;
+}
+.flex-wrapper-three {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 19.73px 62.63px 19.83px 24.07px;
+  position: relative;
+}
+.soc-seti {
+  width: 78.3px;
+  height: 16.44px;
+}
+.flex-wrapper-four {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  right: -29px;
+  top: 0;
+}
+.ellipse-6 {
+  transition: 0.5s;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.ellipse-6:hover {
+  box-shadow:0 0 20px #15dcff; 
+  transform: scale(1.15);
+  z-index: 1;
+  transition: 0.2s;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.ellipse-2 {
+  transition: 0.5s;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.ellipse-2:hover {
+  box-shadow:0 0 20px #15dcff; 
+  transform: scale(1.15);
+  z-index: 1;
+  transition: 0.2s;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+.ellipse-4 {
+  transition: 0.5s;
+  width: 60px;
+  height: 60px;
+  margin-right: 45px;
+  border-radius: 50%;
+}
+.ellipse-4:hover {
+  box-shadow:0 0 20px #15dcff; 
+  transform: scale(1.15);
+  z-index: 1;
+  transition: 0.2s;
+  width: 60px;
+  height: 60px;
+  margin-right: 45px;
+  border-radius: 50%;
+}
+.rectangle-17 {
+  width: 90px;
+  height: 60px;
+  background-color: rgba(0, 0, 0, 0.55);
+  position: relative;
+}
+.flex-wrapper-five {
+  background-color: rgba(217, 217, 217, 1);
+  border-radius: 50%;
+  display: flex;
+  align-items: flex-start;
+  position: absolute;
+  left: -30px;
+  top: 0;
+}
+.group-26 {
+  transition: 0.5s;
+  background-color: var(--transparent-black-3);
+  padding: 13.26px 196.35px 8.9px 197.19px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid var(--deep-sky-blue);
+  margin-bottom: 14px;
+}
+.group-26:hover {
+  box-shadow:0 0 5px #00d9ff; 
+  transform: scale(0.98);
+  z-index: 1;
+  transition: 0.2s;
+  background-color: var(--deep-sky-blue);
+  padding: 13.26px 196.35px 8.9px 197.19px;
+  display: flex;
+  align-items: flex-start;
+  border: 2px solid var(--deep-sky-blue);
+}
+.oformit-zakaz {
+  width: 157.46px;
+  height: 18.84px;
+}
+.rectangle-12 {
+  width: 585px;
+  height: 270px;
+  margin-bottom: 15px;
+}
+.rectangle-13 {
+  width: 60px;
+  height: 60px;
+}
+.flex-wrapper-two {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 3px 0px 3px 17px;
+  display: flex;
+  align-items: center;
+}
+.polygon-1 {
+  width: 36px;
+  height: 34px;
+  margin-right: 36px;
+}
+.shiro-ozornik-djatel {
+  width: 196.05px;
+  height: 16.95px;
+}
+.flex-wrapper-one {
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 31px 22.75px 40.59px 30px;
+  display: flex;
+  align-items: flex-start;
+}
+.krasnoglazaja-devushka-al-binos-drug-detstv {
+  width: 532.25px;
+  height: 408.41px;
+}
+audio {
+  color: #000;
+}
+a img {
+  border: none; /* убираем рамку */
+     }
+  .lightbox {
+  /** определяем базовый стиль lightbox */
+    position: fixed;
+    overflow: hidden;
+    z-index: 9999;
+    width: 0;
+    height: 0;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+  }
+  .lightbox img {
+  /** базовый стиль изображений lightbox*/
+  width: auto;
+  max-width: auto;
+  height: 80%;
+  margin: 5% auto;
+  /** полная прозрачность изначально */
+    opacity: 0;
+    border: 1px solid #4D4D4D;
+  /** тени у картинок - это по желанию */
+    -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  /* трансформация прозрачности при открытии  */
+    -webkit-transition: opacity 500ms ease-in;
+    -moz-transition: opacity 500ms ease-in;
+    transition: opacity 500ms ease-in;  
+  }
+  .lightbox:target {
+  /** активируем lightbox при нажатии */
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+  /** удаляем контур по умолчанию */
+    outline: none;
+  }
+  .lightbox:target img {
+  /** делаем элемент непрозрачным  */
+    opacity: 1;
+  }
+
+  main {
+    width: 100%; height:100%;
+		top: 0; bottom: 0; left: 0; right: 0;
+    position: fixed;
+		overflow: hide;
+    margin: 0;
+    animation: main1 3s;
+  }
+  @keyframes main1 {
+    from {opacity: 0;}
+    to {opacity: 1;}
+    }
+ /** скролл  */
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+@media  { 
+
+
+  
+}
+

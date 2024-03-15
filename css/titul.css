@@ -271,7 +271,7 @@ audio {
   position: relative;
 }
 .flex-wrapper-five {
-  background-color: rgba(217, 217, 217, 1);
+  background-color: rgba(217 217 217 / 0%);
   border-radius: 50%;
   display: flex;
   align-items: flex-start;
